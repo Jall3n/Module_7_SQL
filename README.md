@@ -9,7 +9,7 @@ For this challenge our manager has asked that we determine the number of retirin
 ERD or Entity Relationship Diagram to visualize the relationship between our datasources
 <img width="453" alt="ERDiagram" src="https://github.com/Jall3n/Module_7_SQL/assets/119149740/a867329d-9e55-41c5-9245-c3ff5b24e370">
 
-- Our initial retirement table utilized the employee number, first name, last name, title, from date and to date. However, we are shown duplicates stemming from an employee having a title change within the company. Used SELECT DISTICT ON to remove the duplicates and excluded employees that have already left the company. 
+- The initial retirement table utilized the employee number, first name, last name, title, from date and to date. However, we are shown duplicates stemming from an employee having a title change within the company. Used SELECT DISTICT ON to remove the duplicates and excluded employees that have already left the company. 
 
 ![Screenshot 2023-05-21 at 6 07 04 PM](https://github.com/Jall3n/Module_7_SQL/assets/119149740/595a440e-63bd-4275-b3c7-656b737e0e2d)
 
@@ -20,7 +20,7 @@ ERD or Entity Relationship Diagram to visualize the relationship between our dat
 
 - A screenshot of the employees that are eligible for the mentorship program
 
-![Screenshot 2023-05-21 at 6 13 45 PM](https://github.com/Jall3n/Module_7_SQL/assets/119149740/268992bb-dd66-4fb7-99af-fd7b65e5f3d7)
+
 
 
 -
