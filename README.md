@@ -10,9 +10,14 @@ ERD or Entity Relationship Diagram to visualize the relationship between our dat
 <img width="453" alt="ERDiagram" src="https://github.com/Jall3n/Module_7_SQL/assets/119149740/a867329d-9e55-41c5-9245-c3ff5b24e370">
 
 1. 
-2. Retirement title count
+2. Out of the 72,458 employes eligible for retirement 25,916 are Senior Engineers and 24,926 are Senior Staff.
 
 ![Screenshot 2023-05-21 at 1 48 30 PM](https://github.com/Jall3n/Module_7_SQL/assets/119149740/64318300-ca49-4736-aca9-833c76e2c6d9)
+
+Using SUM we find out that there are 72,458 employees eligibile for retirement
+
+    SELECT SUM(count) AS "Total Retirees"
+    FROM retiring_titles;
 
 3.
 4.
