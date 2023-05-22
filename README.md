@@ -18,10 +18,14 @@ ERD or Entity Relationship Diagram to visualize the relationship between our dat
 
 ![Screenshot 2023-05-21 at 1 48 30 PM](https://github.com/Jall3n/Module_7_SQL/assets/119149740/64318300-ca49-4736-aca9-833c76e2c6d9)
 
-- A screenshot of the employees that are eligible for the mentorship program
+- A screenshot of the employees that are eligible for the mentorship program with a total of 1,549 rows. Utilized INNER JOIN to merge dept_emp and titles with employees data. 
 
+        INNER JOIN dept_emp as de
+            ON (e.emp_no = de.emp_no)
+        INNER JOIN titles as ts
+            ON (e.emp_no = ts.emp_no)
 
-
+![Screenshot 2023-05-21 at 7 49 01 PM](https://github.com/Jall3n/Module_7_SQL/assets/119149740/fd49afba-7fb1-41cb-b0a2-3357dd898cd5)
 
 -
 
